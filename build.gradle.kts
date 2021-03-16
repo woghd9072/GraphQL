@@ -23,6 +23,7 @@ dependencies {
 	implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8")
 
 	implementation("com.graphql-java:graphql-spring-boot-starter:5.0.2")
+	implementation("com.graphql-java:graphql-java-tools:5.2.4")
 
 	testImplementation("org.springframework.boot:spring-boot-starter-test")
 }
