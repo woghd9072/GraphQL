@@ -15,6 +15,7 @@ import javax.annotation.PostConstruct
 import java.io.IOException
 import java.net.URL
 import graphql.schema.idl.TypeRuntimeWiring.newTypeWiring
+import kotlin.jvm.Throws
 
 
 @Component
