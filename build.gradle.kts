@@ -24,6 +24,8 @@ dependencies {
 	implementation("org.jetbrains.kotlin:kotlin-reflect")
 	implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8")
 
+	runtimeOnly("com.h2database:h2")
+
 	implementation("com.graphql-java:graphql-spring-boot-starter:5.0.2")
 	implementation("com.graphql-java:graphql-java-tools:5.2.4")
 	implementation("com.graphql-java:graphql-java-spring-boot-starter-webmvc:1.0")
