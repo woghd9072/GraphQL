@@ -37,7 +37,7 @@
             sendQuery() {
                 client.query({
                     query: gql`query {
-                        book {
+                        books {
                             id
                             name
                             pageCount
@@ -49,7 +49,7 @@
                     }`
                 }).then(({data}) => {
                     console.log(data)
-                    this.books = data.book
+                    this.books = data.books
                 })
             }
         }
