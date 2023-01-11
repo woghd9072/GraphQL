@@ -1,4 +1,4 @@
-# graphQL
+# GraphQL
 
 `SpringBoot`에서 `GraphQL` 튜토리얼 입니다.
 
